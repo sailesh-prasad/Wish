@@ -1,5 +1,5 @@
 onload = () => {
-  alert("Happy Morning di Pondati...");
+  alert("Hello...");
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
     clearTimeout(c);
